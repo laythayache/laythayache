@@ -1,91 +1,69 @@
-# Hi there, I'm Layth AYACHE 👋
+<!-- Translate Button -->
+<div align="right">
+  <a href="https://translate.google.com/translate?hl=en&sl=en&tl=fr&u=https://github.com/laythayache" target="_blank">
+    <img src="https://img.shields.io/badge/Translate-French-blue" alt="Translate to French">
+  </a>
+</div>
 
-**Computer and Communication Engineer**
+# Hello, I'm Layth AYACHE 👋
 
-Multilingual engineer with over 2 years of experience in Artificial Intelligence, Computer Vision, Data Analytics, and Network Engineering. Based in Beirut, Lebanon.
+**Computer and Communication Engineer**  
+Multilingual engineer specializing in AI, Machine Learning, Computer Vision, Networking, and Embedded Systems. Based in Beirut, Lebanon.
 
 ---
 
 ## About Me
 
-I specialize in developing innovative tech solutions by integrating AI, data analytics, and network engineering. I enjoy tackling challenging projects and mentoring peers, and I am always on the lookout for new opportunities to collaborate and learn.
-
----
-
-## Experience Snapshot
-
-- **Network Engineer Intern @ OGERO** (Jun 2024 – Dec 2024)  
-  - Managed network infrastructure and optimized device configurations.
-  - Implemented security and automation projects using OID and SNMP.
-
-- **Data Analyst & Web Developer Intern @ OGERO** (Dec 2023 – Mar 2024)  
-  - Developed AI-driven data analysis solutions with TensorFlow.
-  - Built dynamic visualization dashboards using React.js and JavaScript.
-
-- **AI-Integrated Accounting System Developer Intern @ Organizer | MEA** (Jan 2025 – Present)  
-  - Designing a web-based accounting system with real-time AI insights.
-  - Utilizing React.js, .NET, and MySQL for scalable financial data management.
-
-- **Part-time Lab Assistant @ Rafik Hariri University** (Jan 2023 – Present)  
-  - Assisted in lab courses including Embedded Systems and Python programming.
+I’m passionate about merging innovative technology with practical solutions—from AI-driven applications in health to robust network configurations and cutting-edge embedded system designs. I thrive in dynamic environments and love tackling complex challenges while mentoring others along the way.
 
 ---
 
 ## Projects
 
-- **License Plate Recognition System**  
-  Real-time detection using Python, YOLOv8, and OCR.
+### 1. AI & Machine Learning 🚀
+Explore my work on intelligent systems that revolutionize industries:
+- **License Plate Recognition System:** Real-time detection using Python, YOLOv8, and OCR.
+- **Face Recognition System:** Real-time identification using OpenCV and advanced detection algorithms.
+- **Sign Language Translator:** Converting ASL gestures into text with a CNN in TensorFlow.
+- **Breast Cancer Detection Model:** Predictive analytics using TensorFlow for early diagnosis.
 
-- **Face Recognition System**  
-  Real-time face detection and identification with Python and OpenCV.
-
-- **Sign Language Translator**  
-  Gesture recognition using a CNN in TensorFlow to convert ASL gestures to text.
-
-- **Breast Cancer Detection Model**  
-  Predictive machine learning model built with TensorFlow for early diagnosis.
-
-*...and many more exciting projects available in my repositories!*
+[Browse AI/ML Projects »](#)  <!-- (Link to your AI/ML repositories or topics) -->
 
 ---
 
-## Technical Skills
+### 2. Communication & Networks 🌐
+Dive into projects centered on networking and communication technologies:
+- **Network Engineering Projects:** Hands-on experience with Cisco configuration, VLAN setups, and firewall optimization.
+- **Packet Tracer Simulations:** Practical exercises and simulations that showcase network troubleshooting and configuration skills.
+- **Security & Automation:** Implemented SNMP and OID-based projects to enhance network monitoring and security.
 
-- **Programming:** Python, C++
-- **Web Development:** React, HTML, CSS, JavaScript, .NET
-- **Data & AI:** TensorFlow, OpenCV, Scikit-learn, Pandas
-- **Networking:** VLANs, VPNs, Cisco Router Setup, Firewall Configuration
-- **Embedded Systems:** Arduino, KiCad, PCB Design
-
----
-
-## Languages
-
-- **Arabic:** Native Proficiency
-- **French:** Bilingual (DELF B2)
-- **English:** Full Professional Proficiency
+[Browse Communication & Networks Projects »](#)  <!-- (Link to your network-related repos) -->
 
 ---
 
-## Volunteer & Leadership
+### 3. Embedded Systems & Hardware 💡
+Discover projects that bridge software and hardware to create smart devices:
+- **Home Security System:** IoT-based security solution with Arduino, PIR sensors, and Bluetooth connectivity.
+- **Line Tracking Robot:** Autonomous navigation using Arduino and IR sensors.
+- **FM/AM Radio PCB Design:** Designing and fabricating PCBs using KiCad for innovative audio solutions.
 
-- University Ambassador @ ZAKA  
-- Rover Captain & Commissioner @ Jarrah Scouts  
-- EMT & Musician @ Lebanese Civil Defense  
-- President, AI Club @ Rafik Hariri University  
-- Vice President, Physics and Astronomy Club
+[Browse Embedded Systems Projects »](#)  <!-- (Link to your embedded systems repos) -->
 
 ---
 
-## Get in Touch
+## Skills & Tools
+
+- **Programming:** Python, C++, JavaScript  
+- **Web Development:** React, HTML, CSS, .NET  
+- **Data & AI:** TensorFlow, OpenCV, Scikit-learn, Pandas  
+- **Networking:** Cisco Router Setup, VLANs, VPNs, Firewall Configuration  
+- **Embedded Systems:** Arduino, KiCad, PCB Design  
+
+---
+
+## Contact
 
 - **Email:** [laythayache5@gmail.com](mailto:laythayache5@gmail.com)
 - **Location:** Beirut, Lebanon
 
----
-
-## GitHub Stats
-
-![Layth's GitHub Stats](https://github-readme-stats.vercel.app/api?username=laythayache&show_icons=true&theme=default)
-
-Feel free to explore my projects and reach out for collaboration!
+Feel free to reach out for collaborations, questions, or just a friendly chat about technology!
