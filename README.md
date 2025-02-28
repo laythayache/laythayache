@@ -11,26 +11,6 @@
   </a>
 </div>
 
-<!-- Custom CSS for Explore Buttons -->
-<style>
-  .explore-btn {
-    display: inline-block;
-    background-color: #888888;
-    color: #fff;
-    padding: 8px 16px;
-    margin-top: 8px;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 1em;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  .explore-btn:hover {
-    background-color: #555555;
-    transform: scale(1.05);
-  }
-</style>
-
 # Layth AYACHE
 
 **Computer and Communication Engineer**  
@@ -38,13 +18,53 @@
 
 ---
 
-## Summary
+## Projects
 
-Multilingual Computer and Communication Engineer with over 2 years of experience specializing in Artificial Intelligence, Computer Vision, Data Analytics, and Network Engineering. Demonstrated expertise in AI model integration, network configuration, and data analysis. Proficient in developing innovative solutions, leading projects, and mentoring peers. Fluent in Arabic, French, and English.
+### 1. Artificial Intelligence & Computer Vision
+<details>
+  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
+  <ul>
+    <li><strong>License Plate Recognition System:</strong> Real-time detection using Python, YOLOv8, and OCR.</li>
+    <li><strong>Face Recognition System:</strong> Application built with Python and OpenCV using Haar cascades and Eigenfaces.</li>
+    <li><strong>Sign Language Translator:</strong> Real-time gesture recognition tool using OpenCV and TensorFlow (CNN) for ASL translation.</li>
+    <li><strong>Image Processing & Color Detection:</strong> Applications using OpenCV for color, edge detection, and object tracking.</li>
+    <li><strong>Breast Cancer Detection Model:</strong> Machine learning model using TensorFlow for predictive analytics.</li>
+  </ul>
+  <a href="https://github.com/laythayache?tab=repositories" target="_blank" style="display:inline-block; background-color:#888888; color:#fff; padding:8px 16px; margin-top:8px; border:none; border-radius:4px; text-decoration:none; font-size:1em;">
+    Explore AI/Computer Vision Projects »
+  </a>
+</details>
+
+### 2. Data Analysis & Web Development
+<details>
+  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
+  <ul>
+    <li><strong>Sentiment Analysis for Restaurant Reviews:</strong> NLP application using Python and Scikit-learn to classify customer reviews.</li>
+    <li><strong>Dynamic Data Visualization Tool:</strong> Web app built with React.js, JavaScript, and TensorFlow for real-time data insights.</li>
+    <li><strong>Vinyl Record Store Website:</strong> E-commerce platform using JavaScript and JSON with user authentication and secure payment features.</li>
+    <li><strong>Laz Press Database System:</strong> GUI-based database application using SQL for streamlined data management and reporting.</li>
+  </ul>
+  <a href="https://github.com/laythayache?tab=repositories" target="_blank" style="display:inline-block; background-color:#888888; color:#fff; padding:8px 16px; margin-top:8px; border:none; border-radius:4px; text-decoration:none; font-size:1em;">
+    Explore Data Analysis & Web Dev Projects »
+  </a>
+</details>
+
+### 3. Embedded Systems & Robotics
+<details>
+  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
+  <ul>
+    <li><strong>Home Security System with Embedded Design:</strong> IoT-based system using Arduino, PIR sensors, and Bluetooth for real-time alerts.</li>
+    <li><strong>Line Tracking Robot:</strong> Autonomous robot using Arduino and IR sensors for line-following navigation.</li>
+    <li><strong>FM/AM Radio PCB Design:</strong> Custom PCB design using KiCad for an FM/AM radio system.</li>
+  </ul>
+  <a href="https://github.com/laythayache?tab=repositories" target="_blank" style="display:inline-block; background-color:#888888; color:#fff; padding:8px 16px; margin-top:8px; border:none; border-radius:4px; text-decoration:none; font-size:1em;">
+    Explore Embedded Systems & Robotics Projects »
+  </a>
+</details>
 
 ---
 
-## Professional Experience (Highlights)
+## Professional Experience
 
 - **OGERO – Network Engineer Intern** (Jun 2024 – Dec 2024, Beirut, Lebanon)  
   Managed network infrastructure (DSLAMs, fiber optics, routers), configured network switches/VLANs/firewalls, and led security & automation projects using SNMP/OID.
@@ -63,52 +83,12 @@ Multilingual Computer and Communication Engineer with over 2 years of experience
 
 ---
 
-## Projects
-
-### 1. Artificial Intelligence & Computer Vision
-<details>
-  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
-  <ul>
-    <li><strong>License Plate Recognition System:</strong> Real-time detection and recognition using Python, YOLOv8, and OCR.</li>
-    <li><strong>Face Recognition System:</strong> Application built with Python and OpenCV using Haar cascades and Eigenfaces.</li>
-    <li><strong>Sign Language Translator:</strong> Real-time gesture recognition with OpenCV and TensorFlow (CNN) to interpret ASL.</li>
-    <li><strong>Image Processing & Color Detection:</strong> Various applications using OpenCV for color detection, edge detection, and object tracking.</li>
-    <li><strong>Breast Cancer Detection Model:</strong> Predictive analytics model using TensorFlow for early diagnosis.</li>
-  </ul>
-  <a class="explore-btn" href="https://github.com/laythayache?tab=repositories" target="_blank">Explore AI/Computer Vision Projects »</a>
-</details>
-
-### 2. Data Analysis & Web Development
-<details>
-  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
-  <ul>
-    <li><strong>Sentiment Analysis for Restaurant Reviews:</strong> NLP application using Python and Scikit-learn to classify customer reviews.</li>
-    <li><strong>Dynamic Data Visualization Tool:</strong> Web app built with React.js, JavaScript, and TensorFlow for real-time data insights.</li>
-    <li><strong>Vinyl Record Store Website:</strong> E-commerce platform using JavaScript and JSON with user authentication and secure payment features.</li>
-    <li><strong>Laz Press Database System:</strong> GUI-based database application using SQL for streamlined data management and reporting.</li>
-  </ul>
-  <a class="explore-btn" href="https://github.com/laythayache?tab=repositories" target="_blank">Explore Data Analysis & Web Dev Projects »</a>
-</details>
-
-### 3. Embedded Systems & Robotics
-<details>
-  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
-  <ul>
-    <li><strong>Home Security System with Embedded Design:</strong> IoT-based system using Arduino, PIR sensors, and Bluetooth connectivity for real-time alerts.</li>
-    <li><strong>Line Tracking Robot:</strong> Autonomous robot using Arduino and IR sensors for line-following navigation.</li>
-    <li><strong>FM/AM Radio PCB Design:</strong> Designed and fabricated PCBs for an FM/AM radio system using KiCad.</li>
-  </ul>
-  <a class="explore-btn" href="https://github.com/laythayache?tab=repositories" target="_blank">Explore Embedded Systems & Robotics Projects »</a>
-</details>
-
----
-
 ## Education & Languages
 
 - **BE Computer and Communication Engineering** (Expected graduation: Jun 2025)  
   Rafik Hariri University, Meshref, Lebanon *(ABET accredited)*
 
-- **Languages:** Arabic (Native), French (Bilingual - DELF B2), English (Full Professional)
+- **Languages:** Arabic (Native), French (Bilingual – DELF B2), English (Full Professional)
 
 ---
 
@@ -116,7 +96,7 @@ Multilingual Computer and Communication Engineer with over 2 years of experience
 
 - **ZAKA | زكا:** University Ambassador (Sep 2024 – Present, Lebanon)
 - **Jarrah Scouts:** Rover Captain & Commissioner (Nov 2017 – Present, Lebanon)
-- **Lebanese Civil Defense:** Emergency Medical Technician (EMT) & Musician (Dec 2022 – Present, Lebanon)
+- **Lebanese Civil Defense:** EMT & Musician (Dec 2022 – Present, Lebanon)
 - **AI Club, Rafik Hariri University:** President (Jan 2023 – Apr 2024)
 - **Physics and Astronomy Club:** Vice President (Jan 2022 – Jan 2023)
 
@@ -130,7 +110,5 @@ Multilingual Computer and Communication Engineer with over 2 years of experience
 - **AI & Data Analysis:** TensorFlow, OpenCV, Scikit-learn, Pandas  
 - **Networking:** VLANs, VPNs, Firewall Configuration, Cisco Router Setup, Putty, SecureCRT  
 - **Embedded Systems:** Arduino, KiCad, PCB Design
-
----
 
 > **Note:** If you do not see a project in my repositories, it is because I am still creating and customizing my GitHub account. Not all projects are currently published, and some projects are part of larger endeavors that cannot be shared due to NDA agreements.
