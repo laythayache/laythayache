@@ -11,25 +11,6 @@
   </a>
 </div>
 
-<!-- Button and Hover Effects -->
-<style>
-  .explore-btn {
-    display: inline-block;
-    background-color: #888888;
-    color: #fff;
-    padding: 8px 16px;
-    margin-top: 8px;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 1em;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  .explore-btn:hover {
-    background-color: #555555;
-    transform: scale(1.05);
-  }
-</style>
 
 # Hello, I'm Layth AYACHE
 
