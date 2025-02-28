@@ -1,79 +1,65 @@
 <!-- Translation Buttons -->
 <div align="right">
   <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https://github.com/laythayache" target="_blank">
-    <button style="padding: 4px 8px; margin: 2px;">English</button>
+    <button style="padding:3px 6px; margin:2px;">English</button>
   </a>
   <a href="https://translate.google.com/translate?hl=en&sl=en&tl=fr&u=https://github.com/laythayache" target="_blank">
-    <button style="padding: 4px 8px; margin: 2px;">Français</button>
+    <button style="padding:3px 6px; margin:2px;">Français</button>
   </a>
   <a href="https://translate.google.com/translate?hl=en&sl=en&tl=ar&u=https://github.com/laythayache" target="_blank">
-    <button style="padding: 4px 8px; margin: 2px;">العربية</button>
+    <button style="padding:3px 6px; margin:2px;">العربية</button>
   </a>
 </div>
 
-<!-- Animated Background Style -->
-<style>
-  body {
-    background: linear-gradient(-45deg, #002244, #00557f, #0080a0, #00bfff);
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-  }
-  @keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  .section-heading {
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 0.3rem;
-  }
-  .project-item:hover {
-    text-decoration: underline;
-  }
-</style>
+# Layth AYACHE
 
-# Hello, I'm Layth AYACHE
+**Computer and Communication Engineer**  
+Beirut, Lebanon
 
-**Computer and Communication Engineer**
-
-I develop innovative solutions in AI (including Data Analytics, ML, and Computer Vision), Communication & Networks, and Embedded Systems & Hardware. Based in Beirut, Lebanon.
+I create innovative solutions in AI (including Data Analytics, ML, and Computer Vision), Communication & Networks, and Embedded Systems & Hardware.
 
 ---
 
-<div class="section-heading">AI & Machine Learning</div>
-Projects include:
-- License Plate Recognition System using Python, YOLOv8, and OCR.
-- Face Recognition System built with OpenCV.
-- Sign Language Translator leveraging TensorFlow.
-- Breast Cancer Detection Model with predictive analytics.
+### Projects
 
-[Explore AI/ML Projects »](#)
+#### AI & Machine Learning Projects
+<details>
+  <summary style="cursor:pointer; font-weight:bold;">Show/Hide Projects</summary>
+  <ul>
+    <li><strong>License Plate Recognition:</strong> Python, YOLOv8, OCR</li>
+    <li><strong>Face Recognition:</strong> OpenCV-based detection</li>
+    <li><strong>Sign Language Translator:</strong> CNN & TensorFlow</li>
+    <li><strong>Breast Cancer Detection:</strong> Predictive analytics with TensorFlow</li>
+  </ul>
+  [Explore AI/ML Projects »](#)
+</details>
+
+#### Communication & Networks Projects
+<details>
+  <summary style="cursor:pointer; font-weight:bold;">Show/Hide Projects</summary>
+  <ul>
+    <li><strong>Cisco & VLAN Setup:</strong> Real-world configurations</li>
+    <li><strong>Packet Tracer Simulations:</strong> Network troubleshooting</li>
+    <li><strong>Security & Automation:</strong> SNMP/OID and firewall management</li>
+  </ul>
+  [Explore Communication Projects »](#)
+</details>
+
+#### Embedded Systems & Hardware Projects
+<details>
+  <summary style="cursor:pointer; font-weight:bold;">Show/Hide Projects</summary>
+  <ul>
+    <li><strong>IoT Home Security:</strong> Arduino, PIR sensors</li>
+    <li><strong>Line Tracking Robot:</strong> Autonomous navigation</li>
+    <li><strong>FM/AM Radio PCB Design:</strong> KiCad-based design</li>
+  </ul>
+  [Explore Embedded Projects »](#)
+</details>
 
 ---
 
-<div class="section-heading">Communication & Networks</div>
-Projects include:
-- Cisco network configurations and VLAN setups.
-- Packet Tracer simulations for network troubleshooting.
-- SNMP/OID based security and automation solutions.
+### Skills & Contact
 
-[Explore Communication Projects »](#)
-
----
-
-<div class="section-heading">Embedded Systems & Hardware</div>
-Projects include:
-- IoT Home Security System using Arduino.
-- Autonomous Line Tracking Robot.
-- FM/AM Radio PCB Design using KiCad.
-
-[Explore Embedded Projects »](#)
-
----
-
-## Skills & Contact
-
-**Skills:** Python, C++, React, TensorFlow, Cisco, Arduino, and more.  
-**Contact:** [laythayache5@gmail.com](mailto:laythayache5@gmail.com) | Beirut, Lebanon
+**Skills:** Python | C++ | React | TensorFlow | OpenCV | Cisco | Arduino | KiCad  
+**Email:** [laythayache5@gmail.com](mailto:laythayache5@gmail.com)  
+**Location:** Beirut, Lebanon
