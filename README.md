@@ -1,114 +1,49 @@
-<!-- Translation Buttons -->
-<div align="right">
-  <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https://github.com/laythayache" target="_blank">
-    <button style="padding:4px 8px; margin:2px;">English</button>
-  </a>
-  <a href="https://translate.google.com/translate?hl=en&sl=en&tl=fr&u=https://github.com/laythayache" target="_blank">
-    <button style="padding:4px 8px; margin:2px;">Français</button>
-  </a>
-  <a href="https://translate.google.com/translate?hl=en&sl=en&tl=ar&u=https://github.com/laythayache" target="_blank">
-    <button style="padding:4px 8px; margin:2px;">العربية</button>
-  </a>
-</div>
-
 # Layth AYACHE
 
 **Computer and Communication Engineer**  
-+961 71-511302 | [laythayache5@gmail.com](mailto:laythayache5@gmail.com) | Beirut, Lebanon
+Beirut, Lebanon • [laythayache5@gmail.com](mailto:laythayache5@gmail.com) • [+961 71-511302](tel:+96171511302)
 
 ---
 
-## Projects
+## Public Repositories
 
-### 1. Artificial Intelligence & Computer Vision
-<details>
-  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
-  <ul>
-    <li><strong>License Plate Recognition System:</strong> Real-time detection using Python, YOLOv8, and OCR.</li>
-    <li><strong>Face Recognition System:</strong> Application built with Python and OpenCV using Haar cascades and Eigenfaces.</li>
-    <li><strong>Sign Language Translator:</strong> Real-time gesture recognition tool using OpenCV and TensorFlow (CNN) for ASL translation.</li>
-    <li><strong>Image Processing & Color Detection:</strong> Applications using OpenCV for color, edge detection, and object tracking.</li>
-    <li><strong>Breast Cancer Detection Model:</strong> Machine learning model using TensorFlow for predictive analytics.</li>
-  </ul>
-  <a href="https://github.com/laythayache?tab=repositories" target="_blank" style="display:inline-block; background-color:#888888; color:#fff; padding:8px 16px; margin-top:8px; border:none; border-radius:4px; text-decoration:none; font-size:1em;">
-    Explore AI/Computer Vision Projects »
-  </a>
-</details>
+Below is a selection of my primary public GitHub repositories. Each project reflects hands-on experience in AI, data engineering, web development, and embedded systems.
 
-### 2. Data Analysis & Web Development
-<details>
-  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
-  <ul>
-    <li><strong>Sentiment Analysis for Restaurant Reviews:</strong> NLP application using Python and Scikit-learn to classify customer reviews.</li>
-    <li><strong>Dynamic Data Visualization Tool:</strong> Web app built with React.js, JavaScript, and TensorFlow for real-time data insights.</li>
-    <li><strong>Vinyl Record Store Website:</strong> E-commerce platform using JavaScript and JSON with user authentication and secure payment features.</li>
-    <li><strong>Laz Press Database System:</strong> GUI-based database application using SQL for streamlined data management and reporting.</li>
-  </ul>
-  <a href="https://github.com/laythayache?tab=repositories" target="_blank" style="display:inline-block; background-color:#888888; color:#fff; padding:8px 16px; margin-top:8px; border:none; border-radius:4px; text-decoration:none; font-size:1em;">
-    Explore Data Analysis & Web Dev Projects »
-  </a>
-</details>
+- **[KNN_decision_trees_and_Naiive_bayes_FromScratch](https://github.com/laythayache/KNN_decision_trees_and_Naiive_bayes_FromScratch)**  
+  A collection of from-scratch implementations for k-Nearest Neighbors, Decision Trees, and Naïve Bayes classifiers in Python. Includes example scripts that load the Iris dataset, train each model, and report accuracy.
 
-### 3. Embedded Systems & Robotics
-<details>
-  <summary style="font-size:1.2em; font-weight:bold; cursor:pointer;">Show/Hide Projects</summary>
-  <ul>
-    <li><strong>Home Security System with Embedded Design:</strong> IoT-based system using Arduino, PIR sensors, and Bluetooth for real-time alerts.</li>
-    <li><strong>Line Tracking Robot:</strong> Autonomous robot using Arduino and IR sensors for line-following navigation.</li>
-    <li><strong>FM/AM Radio PCB Design:</strong> Custom PCB design using KiCad for an FM/AM radio system.</li>
-  </ul>
-  <a href="https://github.com/laythayache?tab=repositories" target="_blank" style="display:inline-block; background-color:#888888; color:#fff; padding:8px 16px; margin-top:8px; border:none; border-radius:4px; text-decoration:none; font-size:1em;">
-    Explore Embedded Systems & Robotics Projects »
-  </a>
-</details>
+- **[ETL_pipelines](https://github.com/laythayache/ETL_pipelines)**  
+  Demonstrates end-to-end ETL processes on low-level datasets. Contains Python scripts for extracting, transforming, and loading CSV data into SQLite, showcasing pipeline robustness and efficiency.
+
+- **[Linear_algebra_library_python](https://github.com/laythayache/Linear_algebra_library_python)**  
+  A lightweight linear algebra library built in Python. Implements vector and matrix operations (addition, multiplication, inversion, eigenvalue computation) without external dependencies.
+
+- **[dataset-collector](https://github.com/laythayache/dataset-collector)**  
+  A toolkit for structured dataset creation, specifically tailored for Arabic Sign Language (ArSL). Includes a Python GUI to capture, label, and organize image/video samples.
+
+- **[Breast-cancer-ML](https://github.com/laythayache/Breast-cancer-ML)**  
+  One of my early machine learning projects: builds a classification model to predict breast cancer malignancy using standard datasets. Demonstrates data preprocessing, model training, and evaluation.
+
+- **[Training-the-ASL-dataset](https://github.com/laythayache/Training-the-ASL-dataset)**  
+  Step-by-step process for building an American Sign Language (ASL) recognition model. Covers data collection, preprocessing, and training with TensorFlow and OpenCV.
+
+- **[BE](https://github.com/laythayache/BE)**  
+  Backend utilities and scripts for various engineering courses. Includes sample code for signal processing, control systems, and embedded applications.
+
+- **[laythayache](https://github.com/laythayache/laythayache)**  
+  Personal website and portfolio repository. Static site built with HTML/CSS showcasing my resume, project summaries, and contact information.
+
+- **[ML-walkthrough](https://github.com/laythayache/ML-walkthrough)**  
+  A Jupyter Notebook tutorial illustrating the foundational steps to begin a machine learning journey. Covers data exploration, feature engineering, and basic model training.
 
 ---
 
-## Professional Experience
+## Contact
 
-- **OGERO – Network Engineer Intern** (Jun 2024 – Dec 2024, Beirut, Lebanon)  
-  Managed network infrastructure (DSLAMs, fiber optics, routers), configured network switches/VLANs/firewalls, and led security & automation projects using SNMP/OID.
+If you have questions or would like to collaborate, please reach out:
 
-- **OGERO – Data Analyst & Web Developer Intern** (Dec 2023 – Mar 2024, Beirut, Lebanon)  
-  Developed AI-driven data analysis solutions using TensorFlow and built dynamic dashboards with React.js and JavaScript.
+- **Email:** [laythayache5@gmail.com](mailto:laythayache5@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/laythayache](https://www.linkedin.com/in/laythayache)  
+- **Phone (Lebanon):** +961 71-511302
 
-- **Organizer | MEA – AI-Integrated Accounting System Developer Intern** (Jan 2025 – Present, Beirut, Lebanon)  
-  Designing a web-based accounting system with AI-driven predictive analysis using React.js, .NET, and MySQL.
-
-- **Rafik Hariri University – Part-time Lab Assistant** (Jan 2023 – Present, Meshref, Lebanon)  
-  Supported lab courses in Embedded Systems, Electronics, and Electric Circuits; assisted with Python, Excel, and MATLAB.
-
-- **Sela | صلة – Team Leader (Jeddah Season)** (May 2022 – Jul 2022, Jeddah, Saudi Arabia)  
-  Led a diverse team and coordinated creative workshops during the Jeddah Season.
-
----
-
-## Education & Languages
-
-- **BE Computer and Communication Engineering** (Expected graduation: Jun 2025)  
-  Rafik Hariri University, Meshref, Lebanon *(ABET accredited)*
-
-- **Languages:** Arabic (Native), French (Bilingual – DELF B2), English (Full Professional)
-
----
-
-## Volunteer Work
-
-- **ZAKA | زكا:** University Ambassador (Sep 2024 – Present, Lebanon)
-- **Jarrah Scouts:** Rover Captain & Commissioner (Nov 2017 – Present, Lebanon)
-- **Lebanese Civil Defense:** EMT & Musician (Dec 2022 – Present, Lebanon)
-- **AI Club, Rafik Hariri University:** President (Jan 2023 – Apr 2024)
-- **Physics and Astronomy Club:** Vice President (Jan 2022 – Jan 2023)
-
----
-
-## Technical Skills
-
-- **Web Development:** React, HTML, CSS, JavaScript  
-- **Programming Languages:** Python, C++  
-- **Database Management:** SQL, MySQL, OracleSQL  
-- **AI & Data Analysis:** TensorFlow, OpenCV, Scikit-learn, Pandas  
-- **Networking:** VLANs, VPNs, Firewall Configuration, Cisco Router Setup, Putty, SecureCRT  
-- **Embedded Systems:** Arduino, KiCad, PCB Design
-
-> **Note:** If you do not see a project in my repositories, it is because I am still creating and customizing my GitHub account. Not all projects are currently published, and some projects are part of larger endeavors that cannot be shared due to NDA agreements.
+You can also explore additional work on my GitHub profile: [github.com/laythayache](https://github.com/laythayache)
