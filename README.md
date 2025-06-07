@@ -1,49 +1,79 @@
-# Layth AYACHE
+# .github/workflows/update_readme.yml
+# ------------------------------
+# This GitHub Action runs daily (and on pushes to main) to regenerate README.md
+# using the `scripts/update_readme.py` script.
+# ------------------------------
+name: Update README
 
-**Computer and Communication Engineer**  
-Beirut, Lebanon • [laythayache5@gmail.com](mailto:laythayache5@gmail.com) • [+961 71-511302](tel:+96171511302)
+on:
+  schedule:
+    - cron: '0 0 * * *'       # every day at midnight UTC
+  push:
+    branches:
+      - main
 
----
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0       # so we can push tags if needed
 
-## Public Repositories
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-Below is a selection of my primary public GitHub repositories. Each project reflects hands-on experience in AI, data engineering, web development, and embedded systems.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-- **[KNN_decision_trees_and_Naiive_bayes_FromScratch](https://github.com/laythayache/KNN_decision_trees_and_Naiive_bayes_FromScratch)**  
-  A collection of from-scratch implementations for k-Nearest Neighbors, Decision Trees, and Naïve Bayes classifiers in Python. Includes example scripts that load the Iris dataset, train each model, and report accuracy.
+      - name: Generate README
+        env:
+          GITHUB_TOKEN: 
+            ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: 
+            ${{ github.repository }}
+        run: |
+          python scripts/update_readme.py > README.md
 
-- **[ETL_pipelines](https://github.com/laythayache/ETL_pipelines)**  
-  Demonstrates end-to-end ETL processes on low-level datasets. Contains Python scripts for extracting, transforming, and loading CSV data into SQLite, showcasing pipeline robustness and efficiency.
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update README.md"
+          git push
 
-- **[Linear_algebra_library_python](https://github.com/laythayache/Linear_algebra_library_python)**  
-  A lightweight linear algebra library built in Python. Implements vector and matrix operations (addition, multiplication, inversion, eigenvalue computation) without external dependencies.
 
-- **[dataset-collector](https://github.com/laythayache/dataset-collector)**  
-  A toolkit for structured dataset creation, specifically tailored for Arabic Sign Language (ArSL). Includes a Python GUI to capture, label, and organize image/video samples.
+# scripts/update_readme.py
+# ------------------------------
+# Fetches all public repos for the current user/org and prints
+# a Markdown list for inclusion in README.md
+# ------------------------------
 
-- **[Breast-cancer-ML](https://github.com/laythayache/Breast-cancer-ML)**  
-  One of my early machine learning projects: builds a classification model to predict breast cancer malignancy using standard datasets. Demonstrates data preprocessing, model training, and evaluation.
+import os
+import requests
+token = os.getenv('GITHUB_TOKEN')
+repo_full = os.getenv('GITHUB_REPOSITORY')      # e.g. 'laythayache/Repos'
+username = repo_full.split('/')[0]
 
-- **[Training-the-ASL-dataset](https://github.com/laythayache/Training-the-ASL-dataset)**  
-  Step-by-step process for building an American Sign Language (ASL) recognition model. Covers data collection, preprocessing, and training with TensorFlow and OpenCV.
+headers = {'Authorization': f'token {token}'} if token else {}
+url = f'https://api.github.com/users/{username}/repos'
+params = {'sort': 'updated', 'direction': 'desc', 'per_page': 100}
 
-- **[BE](https://github.com/laythayache/BE)**  
-  Backend utilities and scripts for various engineering courses. Includes sample code for signal processing, control systems, and embedded applications.
+repos = requests.get(url, headers=headers, params=params).json()
 
-- **[laythayache](https://github.com/laythayache/laythayache)**  
-  Personal website and portfolio repository. Static site built with HTML/CSS showcasing my resume, project summaries, and contact information.
+print("## Public Repositories")
+print()
+for r in repos:
+    name = r['name']
+    desc = r.get('description') or 'No description.'
+    url = r['html_url']
+    print(f"- **[{name}]({url})**  ")
+    if desc:
+        print(f"  {desc}")
 
-- **[ML-walkthrough](https://github.com/laythayache/ML-walkthrough)**  
-  A Jupyter Notebook tutorial illustrating the foundational steps to begin a machine learning journey. Covers data exploration, feature engineering, and basic model training.
-
----
-
-## Contact
-
-If you have questions or would like to collaborate, please reach out:
-
-- **Email:** [laythayache5@gmail.com](mailto:laythayache5@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/laythayache](https://www.linkedin.com/in/laythayache)  
-- **Phone (Lebanon):** +961 71-511302
-
-You can also explore additional work on my GitHub profile: [github.com/laythayache](https://github.com/laythayache)
+# End of script
