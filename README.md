@@ -1,79 +1,47 @@
-# .github/workflows/update_readme.yml
-# ------------------------------
-# This GitHub Action runs daily (and on pushes to main) to regenerate README.md
-# using the `scripts/update_readme.py` script.
-# ------------------------------
-name: Update README
+# Layth Ayache
 
-on:
-  schedule:
-    - cron: '0 0 * * *'       # every day at midnight UTC
-  push:
-    branches:
-      - main
+Computer and Communication Engineer (AI & Computer Vision)
+Beirut, Lebanon • [laythayache5@gmail.com](mailto:laythayache5@gmail.com) • [LinkedIn](https://www.linkedin.com/in/laythayache)
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0       # so we can push tags if needed
+Some of my most advanced work is under NDA and not publicly visible.
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+---
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+## Public Repositories
 
-      - name: Generate README
-        env:
-          GITHUB_TOKEN: 
-            ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: 
-            ${{ github.repository }}
-        run: |
-          python scripts/update_readme.py > README.md
+Listed below are all ten of my public GitHub repositories, ordered by their relevance to AI, machine learning, and computer vision:
 
-      - name: Commit and Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update README.md"
-          git push
+1. **[dataset-collector](https://github.com/laythayache/dataset-collector)**
+   A PyQt toolkit for structured capture, labeling, and export of Arabic Sign Language image/video datasets 
 
+2. **[Training-the-ASL-dataset](https://github.com/laythayache/Training-the-ASL-dataset)**
+   End-to-end OpenCV + TensorFlow pipeline for landmark extraction and sign-language model training 
 
-# scripts/update_readme.py
-# ------------------------------
-# Fetches all public repos for the current user/org and prints
-# a Markdown list for inclusion in README.md
-# ------------------------------
+3. **[Computer\_vision\_openCV\_repo](https://github.com/laythayache/Computer_vision_openCV_repo)**
+   Comprehensive reference for core OpenCV functions and workflows 
 
-import os
-import requests
-token = os.getenv('GITHUB_TOKEN')
-repo_full = os.getenv('GITHUB_REPOSITORY')      # e.g. 'laythayache/Repos'
-username = repo_full.split('/')[0]
+4. **[KNN\_decision\_trees\_and\_Naiive\_bayes\_FromScratch](https://github.com/laythayache/KNN_decision_trees_and_Naiive_bayes_FromScratch)**
+   Pure-Python implementations of k-Nearest Neighbors, Decision Trees, and Naïve Bayes classifiers on the Iris dataset 
 
-headers = {'Authorization': f'token {token}'} if token else {}
-url = f'https://api.github.com/users/{username}/repos'
-params = {'sort': 'updated', 'direction': 'desc', 'per_page': 100}
+5. **[Breast-cancer-ML](https://github.com/laythayache/Breast-cancer-ML)**
+   Machine-learning workflow for breast-cancer diagnosis, covering data preprocessing through evaluation 
 
-repos = requests.get(url, headers=headers, params=params).json()
+6. **[ML-walkthrough](https://github.com/laythayache/ML-walkthrough)**
+   Jupyter Notebook tutorial on data exploration, feature engineering, and baseline model development 
 
-print("## Public Repositories")
-print()
-for r in repos:
-    name = r['name']
-    desc = r.get('description') or 'No description.'
-    url = r['html_url']
-    print(f"- **[{name}]({url})**  ")
-    if desc:
-        print(f"  {desc}")
+7. **[ETL\_pipelines](https://github.com/laythayache/ETL_pipelines)**
+   Modular scripts illustrating robust extraction, transformation, and loading of CSV data into SQLite 
 
-# End of script
+8. **[Linear\_algebra\_library\_python](https://github.com/laythayache/Linear_algebra_library_python)**
+   Lightweight, dependency-free Python library for vector and matrix operations, decompositions, and eigenvalue computations
+
+9. **[BE](https://github.com/laythayache/BE)**
+   Backend utilities and sample code for signal processing, control-systems simulations, and embedded applications 
+
+10. **[laythayache](https://github.com/laythayache/laythayache)**
+    My personal portfolio site (HTML/CSS) showcasing projects, résumé, and contact information 
+---
+
+I continually expand this collection with advanced computer-vision demos, GPU-accelerated workflows, and end-to-end AI integrations. Feel free to explore and reach out for collaboration.
+
+[1]: https://github.com/laythayache?tab=repositories "laythayache (laythayache) / Repositories · GitHub"
