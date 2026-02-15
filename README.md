@@ -1,70 +1,103 @@
-### AYACHE Layth
+# AYACHE Layth
 
-I'm a **Computer and Communication Engineer** based in Beirut, Lebanon. My professional focus is on **Artificial Intelligence & Computer Vision**, where I specialize in building end-to-end solutions. My experience includes developing predictive financial analytics models and automating reporting with NLP, as well as creating real-time sign language translators, OCR systems, Fintech solutions, ML theory, and defense engineering projects.
-
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/laythayache) or reach out via email at [laythayache5@gmail.com](mailto:laythayache5@gmail.com).
-
-🌐 **Let's Connect:**
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/laythayache)
-[<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:laythayache5@gmail.com)
-[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/laythayache)
+**Computer & Communication Engineer | AI & Computer Vision Specialist | Beirut, Lebanon**
 
 ---
 
-### 🛠️ My Toolbox
+##  About Me
 
-| Category               | Technologies                                                                                                                                     |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Programming** | `Python`, `C++`, `JavaScript`                                                                   |
-| **AI & ML** | `TensorFlow`, `YOLO`, `OpenCV`, `Scikit-learn`, `Pandas` |
-| **Cloud & Services** | `AWS (EC2, S3, Lambda, SQS, SageMaker, Rekognition)`, `Git`, `Linux`                                                                   |
-| **Web & Data Viz** | `React.js`, `Chart.js`, `Matlab`, `Jupyter Notebook`                                                                  |
-| **Database** | `SQLite` , `MySQL` , `OracleSQL`                                                                                                                                        |
+I am a Computer and Communication Engineer with a deep passion for Artificial Intelligence, Computer Vision, and building technology that bridges real-world gaps. My journey is rooted in Beirut, Lebanon, where I focus on creating end-to-end solutions that drive accessibility, automation, and insight—especially in environments with unique challenges.
+
+My expertise spans the full AI lifecycle: from data collection and annotation, through model development and deployment, to scaling solutions in the cloud. I thrive on projects that blend research, engineering, and impact, with a strong commitment to open collaboration and knowledge sharing.
 
 ---
 
-### 🚀 Projects & Repositories
+##  Areas of Focus
 
-#### 🧠 Artificial Intelligence & Machine Learning
-
-| Project Name                                                              | Insight                                                                                                                                                                        |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Omnisign - Real-Time LSL Sign Language Translator** | Developed a mobile and desktop application to translate Lebanese Sign Language (LSL) into Arabic or English text using TensorFlow and OpenCV. It integrates gesture detection and a CNN-based classification system. |
-| **Breast Cancer Detection Model** | Created a supervised machine learning model with TensorFlow to predict breast cancer from diagnostic data. The process involved data preprocessing, feature engineering, and model tuning. |
-| **Sign Language Translator (ASL)** | A gesture recognition application that uses TensorFlow and OpenCV. A Convolutional Neural Network (CNN) was trained to interpret American Sign Language gestures in real time. |
-| **Anomaly Detection in Network Traffic** | Engineered an AI system to monitor live network traffic and detect anomalies. The system used unsupervised learning and time-series analysis to identify deviations from normal patterns. |
-| **Regression-pipeline-for-housing-price-prediction**| A comprehensive regression pipeline developed to predict housing prices. It covers data preprocessing, feature engineering, model training, and evaluation.|
-| **K-means-hierarchical-clustering-on-retail-data**| This project explores customer segmentation using K-means and hierarchical clustering algorithms on retail data to identify distinct customer groups.|
-| **cxr-length-of-stay-prediction**| A machine-learning project that predicts a patient's length of stay in a hospital based on chest X-ray data and other relevant features.|
-| **Telco_Customer_Churn**| This repository focuses on analyzing and predicting customer churn for a telecommunications company using various machine learning models and feature engineering techniques.|
-| **KNN, Decision Trees, & Naïve Bayes From Scratch** | Pure-Python implementations of fundamental machine learning classifiers, such as k-Nearest Neighbors, Decision Trees, and Naïve Bayes, to demonstrate a deep understanding of their underlying mechanics.|
-
-#### 🤖 Computer Vision & Data
-
-| Project Name                                                              | Insight                                                                                                                                                                        |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Omnisign Dataset - LSL Gesture Collection** | Curated and annotated a proprietary dataset of over 40,000 LSL gesture samples collected from diverse regions across Lebanon. This established a critical resource for local sign language research. |
-| **Document OCR for Financial Bills** | Built an AI-powered OCR pipeline to extract structured data from scanned bills and receipts. This project was integrated with NLP-based reporting tools to automate financial document processing. |
-| **Image Processing & Color Detection** | Developed real-time vision tools using OpenCV, including color detection, object tracking, and edge detection. The project focused on strengthening core computer vision skills through live video feed experimentation.|
-| **dataset-collector**| A PyQt toolkit designed for structured capture, labeling, and export of Arabic Sign Language image/video datasets, used for creating clean, organized training data.|
-| **Training-the-ASL-dataset**| This repository documents the step-by-step process of creating and training a sign-language model using an end-to-end OpenCV + TensorFlow pipeline.|
-| **Computer_vision_openCV_repo**| A comprehensive reference repository that contains code snippets and examples for core OpenCV functions and common computer vision workflows.|
-| **ETL_pipelines**| This project showcases modular scripts for efficient and robust extraction, transformation, and loading of CSV data into a SQLite database.|
-
-#### ☁️ Cloud & Scalable Systems
-
-| Project Name                                                              | Insight                                                                                                                                                                        |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **AI-Powered Environmental Monitoring System** | Developed a system to detect pollution using computer vision and sensor data. It utilized various AWS services, including AWS Rekognition for image analysis, SageMaker for training, and IoT Core for data ingestion. |
-| **Scalable Image Classification Service with AWS** | Built a cloud-native image classification service that scales dynamically with demand. The architecture leveraged AWS EC2, S3, Lambda, and SQS for compute, storage, and asynchronous task handling. |
-
-#### 💻 Other Projects & Utilities
-
-| Project Name                                                              | Insight                                                                                                                                                                        |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Real-Time Data Visualization Tool** | A dynamic web application built with React.js, TensorFlow, and JavaScript that enables users to interactively analyze live data trends and improve accessibility to insights. |
-| **Linear_algebra_library_python**| A lightweight, dependency-free Python library for fundamental linear algebra operations, including vector/matrix manipulations and eigenvalue computations.|
-| **ML-walkthrough**| A Jupyter Notebook tutorial that guides beginners through the machine learning journey, covering data exploration, feature engineering, and baseline model development.|
+- **AI & Machine Learning:** Predictive analytics, NLP, supervised/unsupervised learning, and ML theory
+- **Computer Vision:** Real-time gesture recognition, OCR, image processing, and dataset curation
+- **Cloud & Scalable Systems:** AWS (EC2, S3, Lambda, SQS, SageMaker, Rekognition), scalable pipelines, and automation
+- **Web & Data Visualization:** Interactive analytics tools, React.js, Chart.js, and Jupyter Notebooks
+- **Fintech & Defense:** Predictive financial analytics, anomaly detection, and defense engineering
 
 ---
-PS: not all projects are on the github repos due to either signing an NDA or it being a university project that isn't organized properly
+
+## 🛠️ Technical Toolbox
+
+| Category         | Technologies                                                                 |
+|------------------|------------------------------------------------------------------------------|
+| Programming      | Python, C++, JavaScript                                                      |
+| AI & ML          | TensorFlow, YOLO, OpenCV, Scikit-learn, Pandas                               |
+| Cloud & Services | AWS (EC2, S3, Lambda, SQS, SageMaker, Rekognition), Git, Linux               |
+| Web & Data Viz   | React.js, Chart.js, Matlab, Jupyter Notebook                                 |
+| Database         | SQLite, MySQL, OracleSQL                                                     |
+
+---
+
+##  Selected Projects
+
+### Artificial Intelligence & Machine Learning
+- **[OmniSign – Real-Time LSL Sign Language Translator](https://laythayache.com/projects/omnisign):**
+  - Developed a cross-platform application to translate Lebanese Sign Language (LSL) into Arabic/English text using TensorFlow and OpenCV. Features gesture detection, CNN-based classification, and a proprietary dataset.
+- **Breast Cancer Detection Model:**
+  - Built a supervised ML model for breast cancer prediction from diagnostic data, including preprocessing, feature engineering, and model optimization.
+- **ASL Sign Language Translator:**
+  - Real-time American Sign Language recognition using a custom-trained CNN and OpenCV pipeline.
+- **Anomaly Detection in Network Traffic:**
+  - Engineered an unsupervised learning system for live anomaly detection in network traffic using time-series analysis.
+- **Regression Pipeline for Housing Price Prediction:**
+  - End-to-end regression pipeline for real estate analytics, covering data wrangling, feature engineering, and model evaluation.
+- **K-means & Hierarchical Clustering on Retail Data:**
+  - Customer segmentation using clustering algorithms to identify actionable groups in retail datasets.
+- **KNN, Decision Trees, & Naïve Bayes From Scratch:**
+  - Pure Python implementations of core ML algorithms, demonstrating deep understanding of their mechanics.
+
+### Computer Vision & Data
+- **OmniSign Dataset – LSL Gesture Collection:**
+  - Curated and annotated 40,000+ LSL gesture samples from diverse Lebanese regions, establishing a foundational resource for local sign language research.
+- **Document OCR for Financial Bills:**
+  - Built an AI-powered OCR pipeline for extracting structured data from scanned financial documents, integrated with NLP-based reporting.
+- **Image Processing & Color Detection:**
+  - Developed real-time vision tools (color detection, object tracking, edge detection) using OpenCV.
+- **dataset-collector:**
+  - PyQt toolkit for structured capture, labeling, and export of Arabic Sign Language datasets.
+- **Training-the-ASL-dataset:**
+  - Documented the end-to-end process of training a sign language model with OpenCV and TensorFlow.
+- **Computer Vision OpenCV Repo:**
+  - Reference repository for OpenCV workflows and code snippets.
+- **ETL Pipelines:**
+  - Modular scripts for robust extraction, transformation, and loading of CSV data into SQLite.
+
+### Cloud & Scalable Systems
+- **AI-Powered Environmental Monitoring System:**
+  - Detected pollution using computer vision and sensor data, leveraging AWS Rekognition, SageMaker, and IoT Core.
+- **Scalable Image Classification Service with AWS:**
+  - Built a cloud-native image classification service with dynamic scaling using EC2, S3, Lambda, and SQS.
+
+### Other Projects & Utilities
+- **Real-Time Data Visualization Tool:**
+  - Dynamic web app for interactive analytics using React.js, TensorFlow, and JavaScript.
+- **Linear Algebra Library (Python):**
+  - Lightweight, dependency-free library for vector/matrix operations and eigenvalue computations.
+- **ML-walkthrough:**
+  - Jupyter Notebook tutorial for beginners, covering the ML workflow from data exploration to baseline modeling.
+
+> _Note: Some projects are not public due to NDAs or university policies._
+
+---
+
+##  Publications & Media
+
+- [Building in a Country with No Infrastructure (Medium)](https://medium.com/@laythayache5/building-in-a-country-with-no-infrastructure-3f8595472895)
+
+---
+
+##  Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/laythayache)
+- [GitHub](https://github.com/laythayache)
+- Email: laythayache5@gmail.com
+
+---
+
+Thank you for visiting my profile! If you’re interested in collaboration, research, or just want to connect, feel free to reach out.
