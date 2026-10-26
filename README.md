@@ -25,12 +25,12 @@ I currently work as **Senior AI Systems & Web Engineer | Technical Lead at [Acho
 |---|---|---|
 | [Hader](https://laythayache.com/projects/hader/) | Production, with active clients | Conversational AI, WhatsApp operations, human handoff, orders, bookings, voice and telephony, testing, production hardening, documentation, and handover |
 | [Alinia](https://laythayache.com/projects/alinia/) | Live production platform | Multilingual real-estate discovery, agency and listing operations, messaging, CRM and reporting, human handoff, and Hader integration |
-| [Lancaster Hospitality Platform](https://laythayache.com/projects/lancaster/) | 14 public sites; ongoing operations | Property websites, multilingual experiences, booking and inquiry workflows, integrations, deployment, and maintenance |
+| [Lancaster Hospitality Platform](https://laythayache.com/projects/lancaster/) | 21 website deployments (19 hotels, 2 hubs); ongoing operations | Property websites, multilingual experiences, booking and inquiry workflows, integrations, deployment, and maintenance |
 | [OmniSign](https://laythayache.com/projects/omnisign/) | Active R&D | Sign-language data collection, processing, model training and evaluation, bounded sequence recognition, and application integration |
 | [PrivacyGuard](https://laythayache.com/projects/privacy-guard/) | Independent public project | Local computer-vision detection and configurable masking for image and video workflows; results remain configuration-specific |
 | [Bridge](https://laythayache.com/projects/bridge/) | Two deployed internal implementations | Employer-specific operational systems for workflow visibility, coordination, reporting, and management oversight |
 
-Hader and Alinia were developed with Tayseer Laz and the Aligned Tech team. Tayseer and I built, deployed, and continue to maintain the Lancaster public sites. OmniSign is a team project; its case study names the original team, contributor, and supervisor. I architected and implemented the Achour Holding version of Bridge.
+Hader and Alinia were developed with Tayseer Laz and the Aligned Tech team. Lancaster is team work: I contributed backend, data and integration, and deployment work, and Tayseer Laz contributed frontend and client-interface work; we continue to maintain the public sites. OmniSign is a team project; its case study names the original team, contributor, and supervisor. I architected and implemented the Achour Holding version of Bridge.
 
 Employer-owned source code, administrative interfaces, credentials, private infrastructure, and customer data are not public.
 
